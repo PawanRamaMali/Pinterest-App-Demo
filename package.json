@@ -1,0 +1,43 @@
+{
+  "name": "Pinterest-App-Demo",
+  "version": "1.0.0",
+  "description": "Pinterest-App-Demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -d | node server.js",
+    "client": "cd client && yarn build && yarn start",
+    "server": "LOG_LEVEL=debug supervisor --inspect server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawanRamaMali/Pinterest-App-Demo.git"
+  },
+  "author": "Pawan Rama Mali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawanRamaMali/Pinterest-App-Demo/issues"
+  },
+  "homepage": "https://github.com/PawanRamaMali/Pinterest-App-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-github2": "^0.1.11",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "yarn": "^1.22.10"
+  },
+  "engines": {
+    "node": "10.10.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,EACE,wCACQ,gCACR,SACA,UACA,SAAW","file":"static/css/main.1cc9c805.css","sourcesContent":["* {\n  -webkit-box-sizing: border-box !important;\n          box-sizing: border-box !important;\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}

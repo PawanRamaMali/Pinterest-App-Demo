@@ -1,0 +1,5 @@
+node_modules/
+.eslintrc
+.env
+.git-credentials
+.gitconfig
